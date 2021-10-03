@@ -39,6 +39,59 @@
             </ol>
           </div>
         </div>
+        <div class="download-link">
+          <div class="container">
+            <h1>Google Direct Link Creator</h1>
+            <input type="radio" name="tab" checked id="pasteLink" />
+            <input type="radio" name="tab" id="embedAudio" />
+            <input type="radio" name="tab" id="embedVideo" />
+            <nav>
+              <label for="login" class="pasteLink"
+                ><i class="fas fa-link">Paste Link</i></label
+              >
+              <label for="login" class="embedAudio"
+                ><i class="fas fa-headphones-alt">Embed Audio</i></label
+              >
+              <label for="login" class="embedVideo"
+                ><i class="fas fa-photo-video">Embed Video/Docs</i></label
+              >
+            </nav>
+            <section>
+              <div class="content content-link">
+                <i class="fas fa-download"></i>
+                <h2>Google Drive Link</h2>
+                <p>Paste your Google Drive file link below</p>
+                <form action="">
+                  <label for="glink">
+                    <i class="fas fa-google-drive"></i>
+                    <input
+                      type="text"
+                      placeholder="Insert Google Drive Link"
+                      class="glink"
+                      id="glink"
+                      autocomplete="off"
+                      required
+                    />
+                  </label>
+                  <button id="btn" class="btn">
+                    Create Direct Download Link
+                  </button>
+                  <div class="embed-code">
+                    <h3>Direct Download Link</h3>
+                    <textarea
+                      name=""
+                      cols="30"
+                      rows="10"
+                      id="download-link"
+                      class="embed"
+                    ></textarea
+                    ><span class="copy">Copy</span>
+                  </div>
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
       </section>
     </main>
 
